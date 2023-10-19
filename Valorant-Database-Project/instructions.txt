@@ -1,0 +1,9 @@
+Instructions to setup the database and run the program:
+1. Follow instructions here https://www.youtube.com/watch?v=7S_tz1z_5bA&pp=ygUKbXlzcWwgbW9zaA%3D%3D to properly install MySQL and MySQL Workbench and start the server
+2. Change your MySQL to access all directories on your pc
+3. Copy the ValorantDatabaseAssets folder into the following directory C:\Program Files\MySQL\MySQL Server 8.0
+4. In MySQL Workbench, open and run create-valorant-database.sql
+5. In a editor, change the host, user, and password to your following details in the database connection part of the code in main.py (labeled with the comment "establish database connection")
+6. Run installation.sh If that doesn't work, run installationpip3.sh And if that doesn't work, just run the commands inside the script to install those independencies
+7. Run run.sh or main.py using the following command $ python3 main.python3
+8. The program should now be running
